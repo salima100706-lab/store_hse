@@ -4,3 +4,18 @@ logs/
 .venv/
 .DS_Store
 .user.yml
+# macOS
+.DS_Store
+
+# HW2: логи проверок и локальные артефакты
+checks.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Spark / IDE
+.spark-warehouse/
+.idea/
+.vscode/
